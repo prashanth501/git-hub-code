@@ -1,0 +1,31 @@
+webservers--Apache,iis,nginx
+
+linux,centos
+installation command--   sudo yum install httpd
+
+ubuntu ---------------  apt -get install apache2
+
+check installed or not - ps -ef|grep httpd
+ 
+for checking status--    service httpd status --for redhat6
+                         /bin/systemctl status httpd.service--for redhat7
+
+For starting the server--/bin/systemctl start httpd.service
+
+
+static content stored in---cd /var/www/html
+
+                        ---ls -lrt
+
+create a file -------------sudo vi index.html
+                           <h1> WELCOME TO INDIA <h1>
+
+REstart the server---------sudo /bin/systemctl restart httpd.service.....static content is 
+                           for redirecting
+
+apache port number---------80
+
+
+ 
+
+
